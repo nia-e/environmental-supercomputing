@@ -3,65 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imact calculator</title>
+    <title>Impact calculator</title>
+    <link rel="icon" href="img/surf.svg" type="image/icon type">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
     <header class="header">
         <nav class="navbar" aria-label="Main Navigation">
             <ul class="nav-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="impact-calculator.html">Impact Calculator</a></li>
-                <li><a href="info.html">Info</a></li>
                 <li><a href="best-practices.html">Best Practices</a></li>
-                <li><a href="about.html">About Us</a></li>
             </ul>
         </nav>
     </header>
+    <div class="scrollable-container">
     
     <section class="hero">
         <img src="sustainable.jpg" alt="Sustainable" class="hero-image">
         <div class="hero-text-box">
-            <h1>Your code is part of the problem. We need your help for more sustainable supercomputing</h1>
+            <h1>Sustainable Supercomputing: Your code is part of the problem but you can be part of the solution.</h1>
             <p>Only because your code runs in the cloud doesn't mean that your code doesn't affect the earth. 
                 By 2030, 20% of the world's electricity is expected to be consumed by internet and communication technology.<sup><a href="https://pisrt.org/psr-press/journals/easl-vol-3-issue-2-2020/new-perspectives-on-internet-electricity-use-in-2030/">1</a></sup>
             </p>
         </div>
 
-       
         <div class="button-container">
             <a href="impact-calculator.html" class="cta-button">Calculate My Environmental Impact</a>
         </div>
         <p class="scroll-annotation-new">Scroll down to explore more</p>
-        <div class="logos-container">
-            <a href="https://www.surf.nl">
-                <img src="surf.svg" alt="SURF Logo" class="logo">
-            </a>
-            <a href="https://uva.nl">
-                <img src="img/uva.svg" alt="UvA Logo" class="logo">
-            </a>
-        </div>
-        
     </section>
-    <div class="info-page content">
-        <div class="overlay"></div>
-        <div class="tile">
-            <img src="img/power2.png" alt="Lightning Icon" class="invert-colors centered-icon">
-            <h2>What is Inefficient Supercomputing?</h2>
-            <p>Inefficient supercomputing means not using high-performance computing (HPC) resources properly and efficiently. This inefficiency can arise from various factors, including poorly optimized software, inadequate hardware configurations, or ineffective resource management. We are focusing on poorly optimised software here. </p>
-            <button class="expand-button">Expand</button>
+
+    
+        <div class="info-page content">
+            <div class="overlay"></div>
+            <div class="tile">
+                <img src="img/power2.png" alt="Lightning Icon" class="invert-colors centered-icon">
+                <h2>What is Inefficient Supercomputing?</h2>
+                <p>Inefficient supercomputing means not using high-performance computing (HPC) resources properly and efficiently. This inefficiency can arise from various factors, including poorly optimized software, inadequate hardware configurations, or ineffective resource management. We are focusing on poorly optimised software here. </p>
+            </div>
+            <div class="tile">
+                <img src="img/drop.png" alt="Drop Icon" class="centered-icon">
+                <h2>What are the Consequences of Inefficient Supercomputing?</h2>
+                <p>Running inefficient code on supercomputers will lead to software bottlenecks resulting in slowed processing speed and wasted resources. Electricity and water consumption will increase as more power is needed to chew through inefficient code and more water is required to cool the hot powerful hardware. Bad code may also have hardware utilization, resource allocation, and scalability issues leading to improper use of the hardware based on what the program needs. </p>
+            </div>
+            <div class="tile">
+                <img src="img/book.png" alt="Book Icon" class="centered-icon">
+                <h2>What can we do?</h2>
+                <p>Addressing these inefficiencies requires better software development practices. By teaching you and other researchers about writing efficient code and encouraging you to write such code, the full potential of supercomputing resources can be unlocked, leading to further advancements in scientific research, technological development, and complex problem-solving all while reducing the growing impact of HPC on the environment.</p>
+            </div>
         </div>
-        <div class="tile">
-            <img src="img/drop.png" alt="Drop Icon" class="centered-icon">
-            <h2>What are the Consequences of Inefficient Supercomputing?</h2>
-            <p>Running inefficient code on supercomputers will lead to software bottlenecks resulting in slowed processing speed and wasted resources. Electricity and water consumption will increase as more power is needed to chew through inefficient code and more water is required to cool the hot powerful hardware. Bad code may also have hardware utilization, resource allocation, and scalability issues leading to improper use of the hardware based on what the program needs. </p>
-            <button class="expand-button">Expand</button>
-        </div>
-        <div class="tile">
-            <img src="img/book.png" alt="Book Icon" class="centered-icon">
-            <h2>What can we do?</h2>
-            <p>Addressing these inefficiencies requires better software development practices.  By teaching you and other researchers about writing efficient code and encouraging you the write such code, the full potential of supercomputing resources can be unlocked, leading to further advancements in scientific research, technological development, and complex problem-solving all while reducing the growing impact of HPC on the enviromnent.</p>
-            <button class="expand-button">Expand</button>
+        <div class="about-section">
+            <h1>About Us</h1>
+            <section class="about-cards">
+                <div class="about-card">
+                    <h2 class="card-header">Who are we?</h2>
+                    <p><img src="img/university.svg" alt="University Icon"> We are six students of Computational Social Science at the University of Amsterdam. This website is our Digital Behavioural Change Intervention to incentivize researchers to practice more environmentally sustainable coding. </p>
+                </div>
+                <div class="about-card">
+                    <h2 class="card-header">Our goals:</h2>
+                    <p><img src="img/awareness.svg" alt="Awareness Icon"> Spread awareness</p>
+                    <p><img src="img/target.svg" alt="Impact Icon"> Incenvitize more sustainable coding</p>
+                </div>
+                <div class="about-card">
+                    <h2 class="card-header">Our collaborators:</h2>
+                    <p style="display: flex; align-items: center; justify-content: center;">
+                        <a href="https://uva.nl"><img src="img/uva.svg" alt="UvA Logo" style="width: 50px; height: auto; margin-right: 10px;"></a>
+                        <a href="https://www.surf.nl"><img src="img/surf.svg" alt="SURF Logo" style="width: 80px; height: auto;"></a>
+                    </p>
+		    <p>We are in collaboration with SURF. This website aims to help SURF's interests, while following our program at the UvA.</p>
+                </div>
+            </section>
         </div>
     </div>
 </body>
